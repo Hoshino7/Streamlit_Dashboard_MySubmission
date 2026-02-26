@@ -8,24 +8,28 @@ Selamat datang di proyek analisis data saya! Proyek ini merupakan bagian dari tu
 - **ID Dicoding:** Muhammad Putra
 
 ## Struktur Proyek
-- `/dashboard`: Berisi file `dashboard.py` dan dataset yang digunakan untuk menjalankan dashboard Streamlit.
-- `Bike_Sharing_Analysis.ipynb`: Notebook utama tempat saya melakukan Data Wrangling, EDA, hingga Visualisasi Data.
-- `requirements.txt`: Daftar library Python yang dibutuhkan untuk menjalankan proyek ini.
-- `day.csv`: Dataset utama yang digunakan dalam analisis.
+- `dashboard.py`: File utama untuk menjalankan dashboard Streamlit.
+- `day.csv`: Dataset penyewaan sepeda harian.
+- `requirements.txt`: Daftar library Python yang dibutuhkan.
+- `Bike_Sharing_Analysis.ipynb`: File analisis data lengkap (Data Wrangling, EDA, Visualisasi).
 
 ## Pertanyaan Bisnis
 1. Bagaimana tren pertumbuhan penyewaan sepeda di tahun 2012?
-2. Bagaimana pengaruh kondisi cuaca dan status hari kerja terhadap perilaku jumlah penyewaan sepeda?
-3. Bagaimana karakteristik penyewaan berdasarkan kategori suhu melalui teknik manual clustering?
+2. Bagaimana pengaruh kondisi cuaca terhadap perilaku jumlah penyewaan sepeda?
 
-## Kesimpulan Singkat
-- **Tren 2012:** Terdapat kenaikan signifikan dari awal tahun dengan puncak penyewaan pada bulan September.
-- **Pengaruh Cuaca:** Cuaca cerah mendominasi total penyewaan, terutama pada hari kerja (working day) yang menunjukkan sepeda digunakan untuk mobilitas harian.
-- **Manual Clustering:** Penyewa lebih aktif pada kategori suhu "Warm" (Hangat) dan "Hot" (Panas), sementara pada suhu dingin terjadi penurunan drastis.
+## Kesimpulan
+- **Tren 2012:** Terjadi peningkatan yang sangat signifikan dibandingkan tahun 2011, dengan puncak penyewaan pada bulan September 2012.
+- **Pengaruh Cuaca:** Pengguna jauh lebih banyak menyewa sepeda pada kondisi cuaca cerah (Clear) dibandingkan kondisi mendung atau hujan.
 
-## Cara Menjalankan Dashboard
+## 🔗 Link Dashboard
+Anda dapat mengakses dashboard interaktif melalui tautan berikut:
+**[👉 Lihat Dashboard Muhammad Putra di Sini](https://muhammad-putra-bike-analysis.streamlit.app/)**
 
-### 1. Instalasi Library
-Pastikan Anda memiliki Python terinstal, lalu jalankan perintah berikut untuk menginstal library yang dibutuhkan:
-```bash
-pip install pandas matplotlib seaborn streamlit
+---
+
+## Cara Menjalankan di Local Laptop
+Jika ingin menjalankan dashboard secara lokal, ikuti langkah berikut:
+
+1. Clone repositori ini:
+   ```bash
+   git clone [https://github.com/Hoshino7/Streamlit_Dashboard_MySubmission.git](https://github.com/Hoshino7/Streamlit_Dashboard_MySubmission.git)
